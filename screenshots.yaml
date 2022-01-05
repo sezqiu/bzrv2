@@ -1,0 +1,21 @@
+tests:
+  - test/main.dart
+
+staging: ./build/screenshots
+
+# A list of locales supported in app
+locales:
+  - en-US
+
+# A list of devices to run tests on
+devices:
+  ios:
+    iPhone 11 Pro Max:
+    iPad Pro (12.9-inch) (4th generation):
+  # android:
+  #   Nexus 5X:
+
+# Frame screenshots
+frame: false
+
+archive: ./build/screenshots
